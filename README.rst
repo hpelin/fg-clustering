@@ -48,7 +48,7 @@ To get explainability of your Random Forest model via Forest-Guided Clustering, 
    from fgclustering import FgClustering
    
    # initialize and run fgclustering object
-   fgc = FgClustering(model=rf, data=data_boston, target_column='target')
+   fgc = FgClustering(model=rf, data=data_iris, target_column='target')
    fgc.run()
    
    # visualize results
